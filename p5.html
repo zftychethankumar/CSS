@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-BASICS</title>
+    <style>
+        .combination{
+            background-color: aquamarine;
+            color: goldenrod;
+            padding: 20px;
+        }
+        .combination ~ h5{
+            color: aquamarine;
+            background-color: orange;
+        }
+        .combination~div>h5{
+            color: aquamarine;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>There are 4 different combination in css..!</h1>
+    </center>
+    <hr>
+    <ol>
+        <li>Descender selector (USING SPACE)</li>
+        <li>Child Selector (USING > SYMBOL)</li>
+        <li>Adjacent Sibling Selector (USING + SYMBOL)</li>
+        <li>General Sibling Selector (USING ~ SYMBOL)</li>
+    </ol>
+    <hr>
+
+    <h1>General Sibling Selector (USING ~ SYMBOL) Example..!</h1>
+    <hr>
+    <section class="combination" id="akhil">
+        <h3>First H3 Tag..! (Child Element)</h3>
+        <p>First Paragraph..! (Child Element)</p>
+
+        <h3>Second H3 Tag..! (Child Element)</h3>
+        <p>Second Paragraph..! (Child Element)</p>
+
+        <h3>Thrid H3 Tag..! (Child Element)</h3>
+        <p>Third Paragraph..! (Child Element)</p>
+
+        
+        <div>
+            <h3>Fourth H3 Tag..! (Child Element)</h3>
+            <p>Fourth Paragraph..! (Child Element)</p>
+        </div>
+         
+        <h3>Five H3 Tag..! (Child Element)</h3>
+        <p>Five Paragraph..! (Child Element)</p>
+    </section>
+
+    <h5>First H3 Tag..! (Child Element)</h5>
+    <p>First Paragraph..! (Child Element)</p>
+
+    <h5>Second H3 Tag..! (Child Element)</h5>
+    <p>Second Paragraph..! (Child Element)</p>
+
+    <h5>Thrid H3 Tag..! (Child Element)</h5>
+    <p>Third Paragraph..! (Child Element)</p>
+
+    
+    <div>
+        <h5>Fourth H3 Tag..! (Child Element)</h5>
+        <p>Fourth Paragraph..! (Child Element)</p>
+    </div>
+     
+    <h5>Five H3 Tag..! (Child Element)</h5>
+    <p>Five Paragraph..! (Child Element)</p>
+</body>
+</html>
